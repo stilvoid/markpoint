@@ -1,0 +1,68 @@
+html {
+    background: white;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: 16pt;
+    font-family: serif;
+}
+
+body {
+    margin: 1em;
+}
+
+#main {
+    margin: 1em;
+}
+
+#title, h1, h2, h3, h4 {
+    color: #d2232a;
+}
+
+#title {
+    font-size: 12pt;
+    padding-bottom: 1em;
+    margin: 0 0 1em 0;
+    border-bottom: 1px solid #999;
+}
+
+#pageCount {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    font-size: 12pt;
+    color: #999;
+}
+
+h1 {
+    font-size: 24pt;
+    text-align: center;
+    margin-top: 20%;
+}
+
+#main>p, #main>ul, #main>pre {
+    margin: 0.5em 2em;
+}
+
+#main>ul {
+    padding-left: 2em;
+}
+
+li>p:first-child {
+    margin: 0;
+}
+
+li {
+    margin: 1em 0;
+}
+
+pre, code {
+    color: #666;
+    font-family: monospace;
+}
+
+pre {
+    border: 1px solid #999;
+    border-radius: 10px;
+    padding: 0.5em;
+}
