@@ -8,11 +8,12 @@ Markpoint is a script for converting markdown documents into HTML presentations
 
     -h | --help             This help text
     -t | --template <file>  Use <file> as HTML template
+    -c | --css <file>       Use <file> for css
     -n | --name             Set the presentation name
     -s | --split <n>        Split pages by headings of level <n> or lower (default 2, min 1)
     -o | --output <file>    Output to <file> instead of stdout
 
-## Input
+## Input format
 
 The input file should be text formatted as [markdown](http://daringfireball.net/projects/markdown/).
 
