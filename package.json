@@ -17,5 +17,9 @@
   "engines": {
     "node": "*"
   },
-  "main": "index.js"
+  "main": "index.js",
+  "bin": {
+    "markpoint": "index.js"
+  },
+  "readme": "README.markdown"
 }
