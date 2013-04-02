@@ -21,5 +21,11 @@
   "bin": {
     "markpoint": "index.js"
   },
-  "readme": "README.markdown"
+  "readmeFilename": "README.md",
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "http://github.com/stilvoid/markpoint/blob/master/LICENSE"
+    }
+  ]
 }
