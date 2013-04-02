@@ -1,0 +1,21 @@
+{
+  "author": "Steve Engledow <steve@offend.me.uk> (http://offend.me.uk)",
+  "name": "markpoint",
+  "description": "Convert markdown into HTML presentations",
+  "keywords": ["markdown", "html", "presentation", "powerpoint", "present", "md", "web"],
+  "version": "0.1.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:stilvoid/markpoint.git"
+  },
+  "homepage": "https://github.com/stilvoid/markpoint",
+  "dependencies": {
+    "node-markdown": "0.1.1"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "main": "index.js"
+}
