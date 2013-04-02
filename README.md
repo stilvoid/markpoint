@@ -1,15 +1,23 @@
--s(plit) n
-    Default: 2
-    Split pages on header level n
+# MarkPoint
 
--t(template) file
-    Default: builtin
-    Use custom HTML file as template
+Markpoint is a script for converting markdown documents into HTML presentations
 
--c(ss) file
-    Default: builtin
-    Use custom CSS
+## Usage
 
--o(utput) file
-    Default: stdout
-    Output to file
+    markpoint [options] <input file>
+
+    -h | --help             This help text
+    -t | --template <file>  Use <file> as HTML template
+    -n | --name             Set the presentation name
+    -s | --split <n>        Split pages by headings of level <n> or lower (default 2, min 1)
+    -o | --output <file>    Output to <file> instead of stdout
+
+## Input
+
+The input file should be text formatted as [markdown](http://daringfireball.net/projects/markdown/).
+
+Headings must use `#` syntax rather than underlines.
+
+Markpoint will split the content into pages using headings. The highest-level heading that will be used to split pages can be set with the `-s` option.
+
+Markpoint will split pages into parts (that are hidden until you click through the presentation) by higher-level headings and bullet points (`*`).
