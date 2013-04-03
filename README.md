@@ -2,6 +2,12 @@
 
 Markpoint is a script for converting markdown documents into HTML presentations
 
+## Installation
+
+MarkPoint is in [npm](http://npmjs.org) and can be installed with:
+
+    npm install -g markpoint
+
 ## Usage
 
     markpoint [options] <input file>
