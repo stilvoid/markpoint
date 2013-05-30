@@ -61,3 +61,11 @@ e.preventDefault();
 
 return false;
 };
+
+window.onkeydown = function(e) {
+    if(e.keyCode === 37) {
+        previous();
+    } else if(e.keyCode === 39) {
+        next();
+    }
+};
